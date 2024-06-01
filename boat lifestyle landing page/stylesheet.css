@@ -1,0 +1,396 @@
+*{
+margin: 0;
+padding: 0;
+font-family: "Metrophobic", sans-serif;
+font-weight: 0;
+font-style: bold;
+box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+.offer_bar{ 
+    background-color: rgb(239, 244, 247);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    padding: 12px;
+}
+
+
+
+
+
+
+
+
+
+.header{ 
+    height: 5rem;
+    background-color: white;
+    border-bottom: 2px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.inner_left{ 
+    display: flex;
+    height: 5rem;
+    width: 70%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    font-size: 2rem;
+    background-color: none;
+    padding-left: 3rem;
+}
+#boatlogo { 
+    width: 85px;
+}
+
+
+.category{
+    display: flex;
+    background-color: white;
+    border: none;
+    margin-right: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 5rem;
+}
+.category:hover{ 
+    display: flex;
+    background-color: white;
+    border-bottom: 2px solid red;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 5rem;
+}
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content1 {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: -150px;
+    background-color: #f9f9f9;
+    min-width: 88rem;
+    border: black solid 1px;
+    height: 20rem;
+    padding: 12px 16px;
+  }
+  .dropdown1:hover .dropdown-content1 {
+    display: flex;
+
+  }
+
+
+
+
+
+.personalisation{
+    display: flex;
+    background-color: white;
+    border: none;
+    margin-right: 20px;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+.personalisation:hover{ 
+    display: flex;
+    background-color: white;
+    border-bottom: 2px solid red;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.gift{
+    display: flex;
+    background-color: white;
+    border: none;
+    margin-right: 20px;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+.gift:hover{ 
+    display: flex;
+    background-color: white;
+    border-bottom: 2px solid red;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.orders{
+    display: flex;
+    background-color: white;
+    border: none;
+    margin-right: 20px;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+.orders:hover{ 
+    display: flex;
+    background-color: white;
+    border-bottom: 2px solid red;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.more{
+    display: flex;
+    background-color: white;
+    border: none;
+    margin-right: 20px;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+.more:hover{ 
+    display: flex;
+    background-color: white;
+    border-bottom: 2px solid red;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    left: -50px;
+    background-color: #f9f9f9;
+    min-width: 15rem;
+    border: black solid 1px;
+    height: 10rem;
+    padding: 12px 16px;
+  }
+  .dropdown:hover .dropdown-content {
+    display: flex;
+
+  }
+.ul_more_list{ 
+    list-style-type: none;
+    text-align: left;
+}
+ a:link, :visited {
+    color: black;
+    text-decoration: none;
+  }
+  a:hover {
+    color: grey;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.inner_right{ 
+
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+.search-bar {
+    display: flex;
+    width: 500px;
+    margin-left: 0;
+    width: 35rem;
+    align-items: center;
+    flex-direction: row;
+    background-color: #f4f5f7;
+    border-radius: 2rem;
+}
+
+input[type="text"] {
+    display: flex;
+    padding: 10px;
+    width: 200%;
+    border: none;
+    border-radius: 2rem;
+    background-color: #f4f5f7;
+    color: black;
+    outline: none;
+}
+::placeholder{ 
+    color: rgb(0,0,0,0.5);
+    border: blue;
+}
+
+
+
+
+
+.icon_image{ 
+    display: flex;
+    width: 25px;
+    height: 25px;
+    padding-left: 1px;
+    border: none;
+}
+.login_logo{ 
+    height: 40px;
+    align-content: center;
+    margin-left: 3rem;
+    border: none;
+}
+.login_dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .login_dropdown:hover .dropdown-content2 {
+    display: block;
+  }
+  .login_button{ 
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 1rem;
+    background-color: darkblue;
+    color: whitesmoke;
+  }
+
+.cart_logo{ 
+    background-color: grey;
+    height: 5px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+	padding: 0;
+
+}
+
+.slider-wrapper {
+	position: relative;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.slider {
+	display: flex;
+	width:100%;
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	scroll-behavior: smooth;
+	box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+	border-radius: 0rem;
+	-ms-overflow-style: none; 
+	scrollbar-width: none; 
+    height: 600px;
+}
+
+
+.slider::-webkit-scrollbar {
+	display: none;
+}
+
+.slider img {
+	flex: 1 0 100%;
+	scroll-snap-align: start;
+	
+}
+
+.slider-nav {
+	display: flex;
+    height: 20px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+	column-gap: 1rem;
+	position: absolute;
+	bottom: 1.25rem;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1;
+    background-color:rgb(255,255,255,0.5);
+}
+
+.slider-nav a {
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	background-color: #fff;
+	opacity: 0.75;
+	transition: opacity ease 150ms;
+}
+
+.slider-nav a:hover {
+	opacity: 1;
+}
+
+
+.width{ 
+ height: 10rem;
+}
