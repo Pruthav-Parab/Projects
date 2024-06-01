@@ -1,0 +1,206 @@
+*{ 
+    background-color: rgb(19, 19, 19);
+    margin: 0;
+    padding: 0;
+    color: rgb(26, 115, 233);
+}
+
+.heading{ 
+    color: rgb(26, 115, 233);
+    text-align: center;
+}
+
+.print{ 
+    font-size: 2rem;
+    text-align: center;
+}
+
+.first{ 
+    vertical-align: middle;
+    height: 100px;
+    max-width: 1000px;
+    background-color: rgb(37, 38, 33);
+    color: rgb(134, 160, 31);
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 1rem;
+    width: 95%;
+    margin: auto;
+    /* margin-left: 1rem;
+    margin-right: 1rem; */
+}
+.text1{ 
+    background-color: rgb(37, 38, 33);
+    font-size: 2rem;
+    margin-top: 1.8rem;
+    margin-bottom: 2.5rem;
+    display: inline-block;
+}
+.blue_fill{ 
+    float: left;
+    display: inline-block;
+    padding: 0;
+    background-color: blue;
+    height: 100px;
+    width: 3%;
+    border-radius: 10px 0 0 10px;
+}
+
+
+
+.second{ 
+    vertical-align: middle;
+    height: 100px;
+    max-width: 1000px;
+    background-color: rgb(37, 38, 33);
+    color: rgb(134, 160, 31);
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 1rem;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-left: 1rem;
+    margin-right: 1rem; */
+}
+.text2{ 
+    background-color: rgb(37, 38, 33);
+    font-size: 2rem;
+    margin-top: 1.8rem;
+    margin-bottom: 2.5rem;
+    display: inline-block;
+}
+.blue_fill{ 
+    float: left;
+    display: inline-block;
+    padding: 0;
+    background-color: blue;
+    height: 100px;
+    width: 3%;
+    border-radius: 10px 0 0 10px;
+}
+
+
+.third{ 
+    vertical-align: middle;
+    height: 100px;
+    max-width: 1000px;
+    background-color: rgb(37, 38, 33);
+    color: rgb(134, 160, 31);
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 1rem;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-left: 1rem;
+    margin-right: 1rem; */
+}
+.text3{ 
+    background-color: rgb(37, 38, 33);
+    font-size: 2rem;
+    margin-top: 1.8rem;
+    margin-bottom: 2.5rem;
+    display: inline-block;
+}
+.blue_fill{ 
+    float: left;
+    display: inline-block;
+    padding: 0;
+    background-color: blue;
+    height: 100px;
+    width: 3%;
+    border-radius: 10px 0 0 10px;
+}
+
+
+
+.fourth{ 
+    vertical-align: middle;
+    height: 100px;
+    max-width: 1000px;
+    background-color: rgb(37, 38, 33);
+    color: rgb(134, 160, 31);
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 1rem;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-left: 1rem;
+    margin-right: 1rem; */
+}
+.text4{ 
+    background-color: rgb(37, 38, 33);
+    font-size: 2rem;
+    margin-top: 1.8rem;
+    margin-bottom: 2.5rem;
+    display: inline-block;
+}
+.blue_fill{ 
+    float: left;
+    display: inline-block;
+    padding: 0;
+    background-color: blue;
+    height: 100px;
+    width: 3%;
+    border-radius: 10px 0 0 10px;
+}
+
+
+.fifth{ 
+    vertical-align: middle;
+    height: 100px;
+    max-width: 1000px;
+    background-color: rgb(37, 38, 33);
+    color: rgb(134, 160, 31);
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 1rem;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-left: 1rem;
+    margin-right: 1rem; */
+}
+.text5{ 
+    background-color: rgb(37, 38, 33);
+    border-radius: 0 10px 10px 0;
+    font-size: 32px;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    display: inline-block;
+    width: 97%;
+}
+
+a{ 
+    color: rgb(26, 115, 233);
+    display: block;
+}
+a:visited{ 
+    color: rgb(26, 115, 233);
+}
+a:hover{ 
+    background-color: blue;
+    color: black;
+    cursor: crosshair;
+}
+.blue_fill{ 
+    float: left;
+    display: inline-block;
+    padding: 0;
+    background-color: blue;
+    height: 100px;
+    width: 3%;
+    border-radius: 10px 0 0 10px;
+}
